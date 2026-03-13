@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --cor01: hsl(30, 54%, 90%);
+    --cor02: hsl(30, 18%, 87%);
+    --cor03: hsl(30, 10%, 34%);
+    --cor04: hsl(24, 5%, 18%);
+    --cor05: hsl(14, 45%, 36%);
+    --cor06: hsl(332, 51%, 32%);
+    --cor07: hsl(330, 100%, 98%);
+    --fontedtq: "Young Serif", serif;
+    --fontepdr: "Outfit", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: var(--fontepdr);
+    font-size: 16px;
+    color: var(--cor03);
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    padding: 0px 30px 0px 30px
+}
+
+.titulo{
+    font-family: var(--fontedtq);
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+header > h1{
+    color: var(--cor04);
+}
+
+header > p{
+    margin-bottom: 20px;
+}
+
+section#prt{
+    background-color: var(--cor07);
+    border-radius: 5px;
+    list-style-position: inside;
+    padding: 20px;
+}
+
+section#prt > h2{
+    color: var(--cor06);
+    margin-bottom: 10px;
+}
+
+section#prt > ul{
+    margin-left: 10px;
+}
+
+section#prt > ul > li{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
