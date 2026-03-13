@@ -29,6 +29,7 @@ body{
     font-family: var(--fontepdr);
     font-size: 16px;
     color: var(--cor03);
+    font-weight: 400;
 }
 
 img{
@@ -36,7 +37,7 @@ img{
 }
 
 main{
-    padding: 0px 30px 0px 30px
+    padding: 0px 30px 20px 30px
 }
 
 .titulo{
@@ -53,27 +54,62 @@ header > p{
     margin-bottom: 20px;
 }
 
+section{
+    margin-bottom: 30px;
+}
+
 section#prt{
     background-color: var(--cor07);
     border-radius: 5px;
-    list-style-position: inside;
     padding: 20px;
 }
 
 section#prt > h2{
     color: var(--cor06);
     margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
-section#prt > ul{
-    margin-left: 10px;
+ul {
+  list-style-position: outside;
+  margin-left: 20px;
 }
 
-section#prt > ul > li{
+ul > li{
     margin-bottom: 10px;
+    padding-left: 15px;
 }
 
+span.dtq{
+    font-weight: 700;
+}
 
+main h2{
+    color: var(--cor05);
+    font-size: 1.7em;
+}
+
+hr{
+    background-color: var(--cor02);
+    height: 1px;
+    border: none;
+}
+
+ol {
+    list-style-position: outside;
+    margin-left: 20px;
+}
+
+ol > li{
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+ol li::marker {
+    font-weight: 700;
+    color: var(--cor05);
+}
 
 
 
