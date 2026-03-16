@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --cor01: hsl(30, 54%, 90%);
+    --cor02: hsl(30, 18%, 87%);
+    --cor03: hsl(30, 10%, 34%);
+    --cor04: hsl(24, 5%, 18%);
+    --cor05: hsl(14, 45%, 36%);
+    --cor06: hsl(332, 51%, 32%);
+    --cor07: hsl(330, 100%, 98%);
+    --fontedtq: "Young Serif", serif;
+    --fontepdr: "Outfit", sans-serif;
+}
+
+body{
+    background-color: var(--cor01);
+}
+
+img{
+    border-radius: 10px;
+}
+
+main{
+    background-color: white;
+    max-width: 700px;
+    margin: 2vw auto;
+    padding: 35px 35px 10px 35px;
+    border-radius: 30px;
+}
+
+div#conteudo{
+    padding: 0px;
+}
+
